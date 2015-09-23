@@ -34,7 +34,7 @@ PACKAGE_DEP      =
 PACKAGE_TRYDEP   = 
 
 # list pattern of scripts to link directly into binary path:
-PACKAGE_SCRIPTS  = scripts/dumpXAODBranches.py
+PACKAGE_SCRIPTS  = scripts/dumpXAODBranches.py scripts/rcpy
 
 # whether to use pedantic compilation:
 PACKAGE_PEDANTIC = 0
