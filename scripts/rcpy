@@ -3,4 +3,4 @@
 # Bash executable script which will setup the ipython rootcore environment,
 # pre-loading RootCore libraries and importing common modules.
 
-ipython -i $ROOTCOREBIN/user_scripts/XAODTestCodes/pyrc.py
+ipython -i $ROOTCOREBIN/user_scripts/XAODTestCodes/pyrc.py -- $@
